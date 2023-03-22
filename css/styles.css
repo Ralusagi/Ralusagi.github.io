@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    font-family: 'Indie Flower', cursive;
+}
+.titulo-principal{
+    text-shadow: 3px 3px #00000044;
+}
+
+.imagenesBonitas{
+    background-image: url(../img/png-clipart-common-sunflower-transparency-sunflower-sunflower-sunflower-seed.png);
+    background-color: transparent;
+}
+
+.modal-footer,.modal-header{
+    background-image: url(../img/75618898-fondo-de-girasol-para-la-presentación.webp);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    
+}
+
+.modal-title{
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+
+.boton-pregunta{
+    text-shadow: 1px 1px #ffffff;
+}
+
+.titulo-modal{
+    text-shadow: 1px 1px #800080;
+}
+
+.poema{
+    font-style: oblique;
+}
+
+body {
+    background-color: #111;
+    background-image: linear-gradient(
+      to right,
+      black,
+      blue,
+      purple
+    );
+  }
+  
+.containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .flower {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 20px;
+  }
+  
+  .petal {
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    transform-origin: bottom center;
+  }
+  
+  .petal:nth-child(1) {
+    transform: rotate(22.5deg);
+  }
+  
+  .petal:nth-child(2) {
+    transform: rotate(45deg);
+  }
+  
+  .petal:nth-child(3) {
+    transform: rotate(67.5deg);
+  }
+  
+  .petal:nth-child(4) {
+    transform: rotate(90deg);
+  }
+  
+  .petal:nth-child(5) {
+    transform: rotate(112.5deg);
+  }
+  
+  .petal:nth-child(6) {
+    transform: rotate(135deg);
+  }
+  
+  .petal:nth-child(7) {
+    transform: rotate(157.5deg);
+  }
+  
+  .petal:nth-child(8) {
+    transform: rotate(180deg);
+  }
+
+  .petal:nth-child(9) {
+    transform: rotate(202.5deg);
+  }
+  
+  .petal:nth-child(10) {
+    transform: rotate(225deg);
+  }
+  
+  .petal:nth-child(11) {
+    transform: rotate(247.5deg);
+  }
+  
+  .petal:nth-child(12) {
+    transform: rotate(270deg);
+  }
+  
+  .petal:nth-child(13) {
+    transform: rotate(292.5deg);
+  }
+  
+  .petal:nth-child(14) {
+    transform: rotate(315deg);
+  }
+  
+  .petal:nth-child(15) {
+    transform: rotate(337.5deg);
+  }
+  
+  .petal:nth-child(16) {
+    transform: rotate(360deg);
+  }
+  
+  .center {
+    position: absolute;
+    top: 30%;
+    width: 100px;
+    height: 100px;
+    margin: -25px 0 0 -25px;
+    background-color: #7B5B1D;
+    border-radius: 50%;
+    transform: translateZ(0);
+    animation: pulse 1s ease-out infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.7);
+ } 
+ }
+
+
+
+@media (max-width: 768px) {
+  .flower {
+    width: 100px;
+    height: 200px;
+  }
+
+  .petal {
+    width: 20px;
+    height: 80px;
+  }
+
+  .center {
+    width: 90px;
+    height: 90px;
+    margin-top: -25px;
+    margin-left: -35px;
+  }
+}
